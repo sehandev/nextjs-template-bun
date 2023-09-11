@@ -7,10 +7,17 @@
 
 ## Getting Started
 
-Run the development server:
+### Run the development server:
 
 ```bash
-pnpm dev
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Run the production server:
+
+```bash
+bun build
+bun start
+```
